@@ -1,3 +1,3 @@
 # SPMDemo
 
-A description of this package.
+This is demo for Swift Package Manager
