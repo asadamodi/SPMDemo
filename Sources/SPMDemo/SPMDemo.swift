@@ -1,6 +1,15 @@
-public struct SPMDemo {
-    public private(set) var text = "Hello, World!"
+import SwiftUI
 
-    public init() {
+struct WelcomePageSPM: View{
+    var body: some View {
+        VStack{
+            Image(systemName: "globe")
+                .imageScale(.large)
+            Text("Welcome to SPM Demo")
+                .fontWeight(.bold)
+                .padding()
+                .multilineTextAlignment(.center)
+        }
+        .padding()
     }
 }
